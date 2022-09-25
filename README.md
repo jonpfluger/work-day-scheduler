@@ -1,6 +1,6 @@
 # Work Day Scheduler
 
-This application uses jQuery, Bootstrap, and Moment.js to allow a user to save events for each hour of the day.
+This application uses Moment.js to allow a user to save events for each hour of the day. It displays the current date, and the hour blocks will change color based on if its in the past, present, or future.
 
 
 ## Mock-Up

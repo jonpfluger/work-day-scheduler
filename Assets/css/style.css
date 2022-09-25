@@ -4,13 +4,14 @@ body {
   line-height: 1;
 }
 
-textarea {
+.text-area {
   background: transparent;
   border: none;
   resize: none;
   color: #000000;
   border-left: 1px solid black;
   padding: 10px;
+  width: 75%;
 }
 
 .jumbotron {
@@ -22,6 +23,7 @@ textarea {
 }
 
 .description {
+  border-left: 2px solid black;
   white-space: pre-wrap;
 }
 
@@ -58,13 +60,13 @@ textarea {
 }
 
 .saveBtn {
-  border-left: 1px solid black;
+  border: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   background-color: #06aed5;
   color: white;
   margin-left: auto;
-  min-width: 5%;
+  min-width: 10%;
 }
 
 .saveBtn i:hover {
